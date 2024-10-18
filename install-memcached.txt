@@ -5,4 +5,11 @@ docker run --name my-memcache --rm --network memcache-net -p 11211:11211 -d memc
 
 
 
-docker run --name my-python --rm --network memcache-net -d python 
+docker run --name my-linux --rm --network memcache-net -d ubuntu sleep 24h
+
+
+
+
+
+
+
