@@ -1,1 +1,8 @@
-docker run --name my-memcache --rm -p 11211:11211 -d memcached
+docker network  create memcache-net
+
+
+docker run --name my-memcache --rm --network memcache-net -p 11211:11211 -d memcached
+
+
+
+docker run --name my-python --rm --network memcache-net -d python 
