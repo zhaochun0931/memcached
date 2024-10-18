@@ -1,0 +1,8 @@
+echo stats | nc localhost 11211
+
+
+
+
+
+
+
