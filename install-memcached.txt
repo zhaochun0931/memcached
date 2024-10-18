@@ -5,7 +5,25 @@ docker run --name my-memcache --rm --network memcache-net -p 11211:11211 -d memc
 
 
 
+
+
+
+
+
+
 docker run --name my-linux --rm --network memcache-net -d ubuntu sleep 24h
+
+
+apt install python3 python3-pip vim -y
+
+
+python3 --version
+pip3 --version
+
+
+pip3 install python-memcached
+
+
 
 
 
